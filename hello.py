@@ -1,5 +1,7 @@
 name = input("whats you name?")
-print("hello," , end="")
-print(name)
+name = name.strip()
+name = name.capitalize()
+print(f"hello, {name}")
+
 
 
